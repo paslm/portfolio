@@ -1,1 +1,12 @@
 // Specific CSS for your home-page
+body {
+    background-color: $light-purple;
+}
+
+.about-me {
+    // border: 5px solid red;
+    padding: 75px;
+    text-align: center;
+    color: $green;
+    font-weight: bold;
+}
