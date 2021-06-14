@@ -3,6 +3,10 @@
 // a relevant structure within app/javascript and only use these pack files to reference
 // that code so it'll be compiled.
 
+
+import "bootstrap"
+import "../../assets/rails-stylesheets-master/application"
+
 require("@rails/ujs").start()
 require("turbolinks").start()
 require("channels")
@@ -14,7 +18,4 @@ require("channels")
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
-
-import "bootstrap"
-import "app/assets/rails-stylesheets-master/application.scss"
 
