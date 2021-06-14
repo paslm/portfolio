@@ -4,49 +4,35 @@
     <title>Portfolio</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      
-      <%# Here Go The Navbar %>
+    
 
-      <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
-        <%= link_to "#", class: "navbar-brand" do %>
-        <%# <%= image_tag "https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png" %>
-        <% end %>
+      <%# HERE GO THE NAVBAR %>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <div class="my-name">
-              <li class="nav-item active">
-                <%= link_to "Mirchev Pascal", "#", class: "nav-link" %>
+      <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">MIRCHEV PASCAL</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
-            </div>
-            <li class="nav-item active">
-              <%= link_to "Home", "#", class: "nav-link" %>
-            </li>
-            <li class="nav-item active">
-              <%= link_to "About", "#", class: "nav-link" %>
-            </li>
-            <li class="nav-item active">
-              <%= link_to "Toolkitt", "#", class: "nav-link" %>
-            </li>
-            <li class="nav-item">
-              <%= link_to "Projects", "#", class: "nav-link" %>
-            </li>
-            <li class="nav-item">
-              <%= link_to "Contact", "#", class: "nav-link" %>
-            </li>
-            <li class="nav-item dropdown">
-              <%# <%= image_tag "https://kitt.lewagon.com/placeholder/users/ssaunier", class: "avatar dropdown-toggle", id: "navbarDropdown", data: { toggle: "dropdown" }, 'aria-haspopup': true, 'aria-expanded': false %> 
-            </li>
-          </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+          </div>  
         </div>
-      </div>
-      <%#  %>
-      
+      </nav>
+
       <%= csrf_meta_tags %>
       <%= csp_meta_tag %>
 
@@ -89,5 +75,6 @@
       <div class="toolkitt">
         
       </div>
+      <script src=""></script>
   </body>
 </html>
