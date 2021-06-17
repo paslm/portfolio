@@ -25,6 +25,12 @@ gem 'autoprefixer-rails', '10.2.5'
 gem 'font-awesome-sass', '~> 5.6.1'
 gem 'simple_form'
 
+#gems required for Portfolio tutorial
+gem 'bootstrap', '~> 5.0.0'
+gem 'jquery-rails'
+gem 'popper_js', '~> 2.9.2'
+gem 'sprockets-rails', :require => 'sprockets/railtie'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
